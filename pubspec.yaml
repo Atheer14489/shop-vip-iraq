@@ -1,0 +1,26 @@
+name: shop_vip_iraq
+description: A Flutter e-commerce application for Shop VIP Iraq. This project demonstrates
+  how to build a simple online store with cart management, checkout,
+  loyalty points, coupon support and an administrative dashboard using
+  Flutter and the Provider package for state management.
+
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.5
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/placeholder.png
