@@ -5,8 +5,7 @@ import '../models/user.dart';
 import '../providers/app_state.dart';
 
 /// A simple login screen that allows the user to enter a username and
-/// password. Upon submission the [AppState.login] method is invoked and the
-/// user is navigated to the home page. In a production application you would
+/// password. Upon submission the [AppState.login] method is invoked and the/// user is navigated to the home page. In a production application you would
 /// validate credentials against a backend service.
 class LoginPage extends StatefulWidget {
   static const routeName = '/login';
@@ -33,8 +32,7 @@ class _LoginPageState extends State<LoginPage> {
 
   void _submit() {
     if (!_formKey.currentState!.validate()) return;
-    final appState = context.read<AppState>();
-    // Create a dummy user using the entered username. In a real scenario
+    final appState = context.read<AppState>();    // Create a dummy user using the entered username. In a real scenario
     // you would use proper authentication and store a persistent user id.
     final user = User(
       id: DateTime.now().millisecondsSinceEpoch.toString(),
