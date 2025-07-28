@@ -12,6 +12,7 @@ jobs:
         with:
           flutter-version: 3.22.2
           channel: stable
+      - run: flutter create .
       - run: flutter pub get
       - run: flutter build web --release
       - uses: peaceiris/actions-gh-pages@v3
