@@ -32,12 +32,32 @@ class AppState extends ChangeNotifier {
 
   /// Available coupons loaded into the system. This list can be used to
   /// validate and apply discounts during checkout.
+ 
   final List<Coupon> _coupons = [];
 
   /// Hierarchical location data loaded from assets. Each entry represents a
   /// governorate with its districts and optional subdistricts. Use
   /// [loadLocations] to initialise this field.
   List<Map<String, dynamic>> _locations = [];
+
+  /// Hard‑coded credentials for demonstration purposes. In a real
+  /// application you would fetch users from a back‑end or database and
+  /// securely verify passwords. The keys are usernames (e.g. email
+  /// addresses) and the values hold the password, display name and an
+  /// `isAdmin` flag indicating whether the account has administrative
+  /// privileges.
+  final Map<String, Map<String, dynamic>> _users = {
+    'admin@shopvipiraq.com': {
+      'password': 'admin1234',
+      'name': 'المدير',
+      'isAdmin': true,
+    },
+    'user@shopvipiraq.com': {
+      'password': 'user1234',
+      'name': 'مستخدم',
+      'isAdmin': false,
+    },
+  };
 
   /// Returns the currently authenticated user or null if no user is logged in.
   User? get user => _user;
@@ -48,6 +68,7 @@ class AppState extends ChangeNotifier {
   /// Unmodifiable view of the product catalogue.
   List<Product> get products => List.unmodifiable(_products);
 
+  
   /// Unmodifiable view of the shopping cart.
   List<CartItem> get cartItems => List.unmodifiable(_cartItems);
 
@@ -66,6 +87,28 @@ class AppState extends ChangeNotifier {
   void login(User user) {
     _user = user;
     notifyListeners();
+  }
+
+  /// Authenticates the provided [username] and [password] against the
+  /// internally defined [_users] map. If the credentials match an
+  /// entry, a [User] is created with the corresponding name and
+  /// `isAdmin` flag. The method returns `true` on success and
+  /// `false` otherwise. This simulates a basic login system.
+  Future<bool> authenticate(String username, String password) async {
+    // Simulate a network/database delay
+    await Future.delayed(const Duration(milliseconds: 500));
+    final entry = _users[username];
+    if (entry != null && entry['password'] == password) {
+      _user = User(
+        id: DateTime.now().millisecondsSinceEpoch.toString(),
+        name: entry['name'] as String,
+        email: username,
+        isAdmin: entry['isAdmin'] as bool,
+      );
+      notifyListeners();
+      return true;
+    }
+    return false;
   }
 
   /// Logs out the current user and clears the cart. All other state such
