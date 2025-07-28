@@ -1,0 +1,222 @@
+[
+  {
+    "governorate": "Al Anbar",
+    "districts": [
+      {"name": "Al-Qa'im", "subdistricts": []},
+      {"name": "Ar-Rutba", "subdistricts": []},
+      {"name": "Anah", "subdistricts": []},
+      {"name": "Fallujah", "subdistricts": []},
+      {"name": "Haditha", "subdistricts": []},
+      {"name": "Hīt", "subdistricts": []},
+      {"name": "Ramadi", "subdistricts": []},
+      {"name": "Rawah", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Muthanna",
+    "districts": [
+      {"name": "Al-Khidhir", "subdistricts": []},
+      {"name": "Al-Rumaitha", "subdistricts": []},
+      {"name": "Al-Salman", "subdistricts": []},
+      {"name": "Al-Samawa", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Qadisiyyah",
+    "districts": [
+      {"name": "Afaq", "subdistricts": []},
+      {"name": "Al-Shamiya", "subdistricts": []},
+      {"name": "Diwaniya", "subdistricts": []},
+      {"name": "Hamza", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Babil",
+    "districts": [
+      {"name": "Al-Mahawil", "subdistricts": []},
+      {"name": "Al-Musayab", "subdistricts": []},
+      {"name": "Hashimiya", "subdistricts": []},
+      {"name": "Hilla", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Baghdad",
+    "districts": [
+      {"name": "Rusafa", "subdistricts": []},
+      {"name": "Adhamiyah", "subdistricts": []},
+      {"name": "Sadr City", "subdistricts": []},
+      {"name": "9 Nissan (New Baghdad)", "subdistricts": []},
+      {"name": "Karadah", "subdistricts": []},
+      {"name": "Al-Za'franiya", "subdistricts": []},
+      {"name": "Karkh", "subdistricts": []},
+      {"name": "Kadhimyah", "subdistricts": []},
+      {"name": "Mansour", "subdistricts": []},
+      {"name": "Al Rashid", "subdistricts": []},
+      {"name": "Abu Ghraib", "subdistricts": []},
+      {"name": "Al Istiqlal", "subdistricts": []},
+      {"name": "Al-Mada'in", "subdistricts": []},
+      {"name": "Mahmudiya", "subdistricts": []},
+      {"name": "Taji", "subdistricts": []},
+      {"name": "Al Tarmia", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Basra",
+    "districts": [
+      {"name": "Abu Al-Khaseeb", "subdistricts": []},
+      {"name": "Al-Midaina", "subdistricts": []},
+      {"name": "Al-Qurna", "subdistricts": []},
+      {"name": "Al-Zubair", "subdistricts": []},
+      {"name": "Basrah", "subdistricts": []},
+      {"name": "al-Faw", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Dhi Qar",
+    "districts": [
+      {"name": "Al-Chibayish", "subdistricts": []},
+      {"name": "Al-Rifa'i", "subdistricts": []},
+      {"name": "Al-Shatra", "subdistricts": []},
+      {"name": "Nassriya", "subdistricts": []},
+      {"name": "Suq Al-Shoyokh", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Diyala",
+    "districts": [
+      {"name": "Al-Khalis", "subdistricts": []},
+      {"name": "Al-Muqdadiya", "subdistricts": []},
+      {"name": "Baladrooz", "subdistricts": []},
+      {"name": "Ba'quba", "subdistricts": []},
+      {"name": "Khanaqin", "subdistricts": []},
+      {"name": "Kifri", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Karbala",
+    "districts": [
+      {"name": "Ain Al-Tamur", "subdistricts": []},
+      {"name": "Al-Hindiya", "subdistricts": []},
+      {"name": "Kerbala", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Kirkuk",
+    "districts": [
+      {"name": "Al-Hawiga", "subdistricts": []},
+      {"name": "Daquq", "subdistricts": []},
+      {"name": "Kirkuk", "subdistricts": []},
+      {"name": "Al-Dibs", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Maysan",
+    "districts": [
+      {"name": "Ali Al-Gharbi", "subdistricts": []},
+      {"name": "Al-Kahla", "subdistricts": []},
+      {"name": "Al-Maimouna", "subdistricts": []},
+      {"name": "Al-Mejar Al-Kabi", "subdistricts": []},
+      {"name": "Amara", "subdistricts": []},
+      {"name": "Qal'at Saleh", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Najaf",
+    "districts": [
+      {"name": "Al-Manathera", "subdistricts": []},
+      {"name": "Kufa", "subdistricts": []},
+      {"name": "Najaf", "subdistricts": []},
+      {"name": "Najaf Abu Sakhir", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Nineveh",
+    "districts": [
+      {"name": "Al-Ba'aj", "subdistricts": []},
+      {"name": "Al-Hamdaniya (Bakhdida)", "subdistricts": []},
+      {"name": "Hatra", "subdistricts": []},
+      {"name": "Mosul", "subdistricts": []},
+      {"name": "Sinjar", "subdistricts": []},
+      {"name": "Tel Afar", "subdistricts": []},
+      {"name": "Tel Keppe", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Saladin",
+    "districts": [
+      {"name": "Al-Daur", "subdistricts": []},
+      {"name": "Al-Shirqat", "subdistricts": []},
+      {"name": "Baiji", "subdistricts": []},
+      {"name": "Balad", "subdistricts": []},
+      {"name": "Samarra", "subdistricts": []},
+      {"name": "Tikrit", "subdistricts": []},
+      {"name": "Tooz (Tuz Khurmatu)", "subdistricts": []},
+      {"name": "Dujail", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Wasit",
+    "districts": [
+      {"name": "Al-Aziziyah", "subdistricts": []},
+      {"name": "Al-Hai", "subdistricts": []},
+      {"name": "Al-Na'maniya", "subdistricts": []},
+      {"name": "Al-Suwaira", "subdistricts": []},
+      {"name": "Badra", "subdistricts": []},
+      {"name": "Kut", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Dohuk",
+    "districts": [
+      {"name": "Amadiya", "subdistricts": []},
+      {"name": "Dahuk", "subdistricts": []},
+      {"name": "Sumel", "subdistricts": []},
+      {"name": "Zakho", "subdistricts": []},
+      {"name": "Batifa", "subdistricts": []},
+      {"name": "Bardarash", "subdistricts": []},
+      {"name": "Akre", "subdistricts": []},
+      {"name": "Shekhan", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Erbil",
+    "districts": [
+      {"name": "Erbil", "subdistricts": []},
+      {"name": "Koisanjaq", "subdistricts": []},
+      {"name": "Shaqlawa", "subdistricts": []},
+      {"name": "Soran", "subdistricts": []},
+      {"name": "Makhmur", "subdistricts": []},
+      {"name": "Mergasur", "subdistricts": []},
+      {"name": "Choman", "subdistricts": []},
+      {"name": "Ankawa", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Sulaymaniyah",
+    "districts": [
+      {"name": "Pshdar", "subdistricts": []},
+      {"name": "Chamchamal", "subdistricts": []},
+      {"name": "Darbandokeh (Darbandikhan)", "subdistricts": []},
+      {"name": "Dokan", "subdistricts": []},
+      {"name": "Kalar", "subdistricts": []},
+      {"name": "Rania", "subdistricts": []},
+      {"name": "Sharbazher", "subdistricts": []},
+      {"name": "Sulaymaniya", "subdistricts": []},
+      {"name": "Saidsadiq", "subdistricts": []},
+      {"name": "Sharazoor (Zarayan)", "subdistricts": []},
+      {"name": "Penjwin", "subdistricts": []},
+      {"name": "Mawat", "subdistricts": []},
+      {"name": "Qaradagh", "subdistricts": []}
+    ]
+  },
+  {
+    "governorate": "Halabja",
+    "districts": [
+      {"name": "Halabja", "subdistricts": []},
+      {"name": "Sirwan", "subdistricts": []},
+      {"name": "Khurmal", "subdistricts": []},
+      {"name": "Byara", "subdistricts": []},
+      {"name": "Bamo", "subdistricts": []}
+    ]
+  }
+]
